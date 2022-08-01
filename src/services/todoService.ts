@@ -1,4 +1,4 @@
-const baseUrl = `https://localhost:8000/todos`;
+const baseUrl = `http://localhost:8000/todos`;
 
 export interface Todo {
   id?: number | string;

@@ -1,7 +1,9 @@
 import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
 import { Button } from 'antd';
+import TodoList from 'components/TodoList';
 import icon from '../../assets/icon.svg';
 import './App.css';
+
 
 const Hello = () => {
   return (
@@ -15,7 +17,7 @@ export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Hello />} />
+        <Route path="/" element={<TodoList />} />
       </Routes>
     </Router>
   );
